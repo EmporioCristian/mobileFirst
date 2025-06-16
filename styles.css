@@ -1,0 +1,33 @@
+/*
+    1. posicionamiento
+    2. box model
+    3. tipografia
+    4. visuales
+    5. animaciones
+    6. responsive
+    7. accesibilidad
+    8. optimizacion
+    9. mantenimiento
+*/
+:root{
+    /* Colores*/
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --dark-blue: #282D30;
+    --medium-blue: #326FF8;
+    --soft-blue: #627EEA;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray: #808080;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
